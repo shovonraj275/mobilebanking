@@ -1,0 +1,28 @@
+/***** Section *****/ 
+.Grid_content_Btn{
+    background: #04f4ec;
+    border: 0;
+    width: 95%;
+    padding: 10px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section{
+    border: 3px solid yellowgreen;
+    margin: 20px 0px;
+    padding: 5px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+.grid select,
+.grid input{
+   width: 90%;
+   margin: 5px;
+   padding: 10px;
+}
+/***** End Section *****/

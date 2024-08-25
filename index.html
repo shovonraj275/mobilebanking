@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Banking</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="grid">
+          <div class="grid_content">
+            Enter Your Account Balance:
+            <input type="number" id="amount">
+          </div>
+          <div class="grid_content">
+            <label for="">Select Mobile Banking</label>
+            <select id="Shop001" onchange="hem()"></select>
+          </div>
+          <div class="grid_content">
+            <label for="">Mobile Banking Facilitys</label>
+            <select id="Shop003">
+              <option value="" selected disabled hidden>  select </option>
+            </select>
+          </div>
+          <div class="grid_content">
+            <button class="Grid_content_Btn" onclick="bkasss()">
+              Calculation
+            </button>
+          </div>
+        </div>
+      </section>
+      <div id="hemout"></div>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
