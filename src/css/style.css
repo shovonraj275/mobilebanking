@@ -1,4 +1,32 @@
 /***** Section *****/ 
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/***** Section *****/ 
+#head{
+    background: #04f4ec ;
+    color: #fff;
+    padding: 20px 20px; 
+}
+
+#head .grid{
+    display: grid;
+    grid-template-columns: 10% 85%;
+}
+#head img{ 
+   width: 90px;
+   height: 70px; 
+}
+#input{
+    padding: 0 50px;
+}
+/***** End Section *****/
+#banner img{
+    width: 100%;
+    height: auto;
+}
 .Grid_content_Btn{
     background: #04f4ec;
     border: 0;
@@ -7,13 +35,28 @@
     margin-top: 20px;
     cursor: pointer;
 }
-
-section{
-    border: 3px solid yellowgreen;
-    margin: 20px 0px;
-    padding: 5px;
-
+#qr {}
+#qr .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 100px;
 }
+#qr .grid .grid_content{
+    border: 1px solid yellowgreen;
+    text-align: center;
+}
+#qr .grid .grid_content img{
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+}
+#qr h2{
+    margin-bottom: 10px;
+}
+
 .grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -26,3 +69,36 @@ section{
    padding: 10px;
 }
 /***** End Section *****/
+/**/
+ /* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #head .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        font-size: 23px;
+    }  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
